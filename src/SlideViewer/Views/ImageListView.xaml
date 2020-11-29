@@ -205,7 +205,8 @@
                         Maximum="30"
                         IsSnapToTickEnabled="True"
                         TickFrequency="1"
-                        x:Name="SlideShowSpeedButton" />
+                        x:Name="SlideShowSpeedButton"
+                        IsDirectionReversed="True" />
                 <Label Padding="2" Content="{Binding ElementName=SlideShowSpeedButton,Path=Value}" />
             </StackPanel>
         </StackPanel>
